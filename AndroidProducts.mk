@@ -5,4 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kebab.mk
+    $(LOCAL_DIR)/lineage_kebab.mk \
+    $(LOCAL_DIR)/custom_kebab.mk
