@@ -30,3 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus8T \
     SystemDevice=OnePlus8T \
     SystemName=OnePlus8T
+
+-include vendor/lineage-priv/keys/keys.mk
