@@ -7,6 +7,9 @@
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
+# Init Spoof Environment
+$(call soong_config_set,libinit,vendor_init_lib,//device/oneplus/kebab/init:libinit_kebab)
+
 DEVICE_PATH := device/oneplus/kebab
 
 # Display
